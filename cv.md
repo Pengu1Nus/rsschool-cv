@@ -42,5 +42,15 @@ Junior Dev (In future there will be my work projects)
 
 *** *** *** *** *** 
 
+### EDUCATION
+* ITMO - Web-Developer
+* RSSchool
+
+*** *** *** *** *** 
+
+### LANGUAGE
+* Russian - Native
+* Tatar - Native
+* English - Upper Intermediate
 
 *** *** *** *** ***
