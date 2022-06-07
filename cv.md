@@ -52,5 +52,3 @@ Junior Dev (In future there will be my work projects)
 * Russian - Native
 * Tatar - Native
 * English - Upper Intermediate
-
-*** *** *** *** ***
