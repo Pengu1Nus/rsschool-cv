@@ -1,1 +1,105 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/icon/flav.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#profile" class="nav-link">PROFILE</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li class="nav-item"><a href="#example" class="nav-link">CODE EXAMPLES</a></li>
+                    <li class="nav-item"><a href="#exp" class="nav-link">EXPERIENCE</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">LANGUAGE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container main-container">
+            <section class="profile" id="profile">
+                <img src="assets/img/main-img.jpg" alt="my photo" class="profile-img">
+                <h1 class="section-title">Zulfat Mustafin</h1>
+                <h2 class="section-subtitle">Junior Front-End Developer</h2>
+                <div class="contacts">
+                    <div class="button"><a href="mailto:mustafin.zulfat@yandex.ru">Email me</a></div>
+                    <div class="button"><a href="https://discord.com/channels/Pengu1Nus#6284">Discord</a></div>
+                </div>
+                <p class="profile-info">Hello, it's my CV. There is information about me. Read below if you interested :)</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="title skills-title">skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML5, CSS3</li>
+                    <li class="skills-item">JavaScript Basics</li>
+                    <li class="skills-item">Git, GitHub</li>
+                    <li class="skills-item">VS Code</li>
+                </ul>
+            </section>
+            <section class="section" id="example">
+                <h2 class="title example-title">Code examples</h2>
+                <div class="example-item">
+                    Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers<br><br>
+                    <span>
+                    function even_or_odd(number) { <br>
+                    &nbsp;&nbsp;if (number % 2 == 0) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "Even"; <br>
+                        &nbsp;&nbsp;} else { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "Odd"; <br>
+                        &nbsp;&nbsp;} <br>
+                    } 
+                    </span>
+                </div>
+            </section>
+            <section class="section" id="exp">
+                <h2 class="title exp-title">EXPERIENCE</h2>
+                <p>Junior Dev (In future there will be my work projects)</p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="title education-title">EDUCATION</h2>
+                <ul>
+                    <li>ITMO - Web-Developer</li>
+                    <li>RSSchool</li>
+                </ul>
+            </section>
+            <section class="section" id="language">
+                <h2 class="title language-title">LANGUAGE</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>Tatar - Native</li>
+                    <li>English - Upper Intermediate</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="flex-wrapper">
+                <div class="flex-item">
+                    <p class="footer-info">© 2022 by Mustafin Zulfat</p>
+                </div>
+                <div class="flex-item">
+                    <ul class="footer-info-list">
+                        <li class="footer-info-item"><a href="https://github.com/Pengu1Nus">GitHub</a></li>
+                        <li class="footer-info-item"><a href="https://rs.school/js-stage0/"><img src="assets/icon/rs-school.png" alt="The Rolling Scopes School" class="footer-icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
