@@ -20,16 +20,17 @@ I'm actively pursuing frontend development through the Rolling Scopes program, w
 
 ## Code Example
 **N-th Fibonacci**
+
 _Write a function that, when given a number n (n >= 1 ), returns the nth number in the Fibonacci Sequence. For example: nthFibo(4) == 2. Because 2 is the 4th number in the Fibonacci Sequence._
 ```javascript
 function nthFibo(n) {
-  if (n === 1) {
-    return 0;
-  }
-  if (n < 4) {
-    return 1;
-  }
-  return nthFibo(n - 1) + nthFibo(n - 2);
+    if (n === 1) {
+      return 0;
+    }
+    if (n < 4) {
+      return 1;
+    }
+    return nthFibo(n - 1) + nthFibo(n - 2);
 }
 ```
 
@@ -39,6 +40,6 @@ function nthFibo(n) {
 * RS School Course «JavaScript/Front-end» (in progress)
 
 ## Languages
-* English - Upper-Intermediate (according to according to the online test at EFset Logo [www.efset.org](https://www.efset.org/))
+* English - Upper-Intermediate (according to according to the online test at EFset [www.efset.org](https://www.efset.org/))
 * Russian - Native
 * Tatar - Native
