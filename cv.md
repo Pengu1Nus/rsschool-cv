@@ -37,3 +37,8 @@ function nthFibo(n) {
 * HTML, CSS Tutorials on Udemy (completed)
 * JavaScript Course on Udemy (completed)
 * RS School Course «JavaScript/Front-end» (in progress)
+
+## Languages
+* English - Upper-Intermediate (according to according to the online test at EFset Logo [www.efset.org](https://www.efset.org/))
+* Russian - Native
+* Tatar - Native
